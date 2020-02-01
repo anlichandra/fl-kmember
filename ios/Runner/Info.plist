@@ -41,23 +41,24 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+	    <string>comgooglemaps</string>
+	    <string>baidumap</string>
+	    <string>iosamap</string>
+	    <string>waze</string>
+	    <string>yandexmaps</string>
+	    <string>yandexnavi</string>
+	</array>
+
+	<array>
+	    <string>UIInterfaceOrientationPortrait</string>
+	</array>
+
+	<key>NSCameraUsageDescription</key>
+	<string>Camera permission is required for barcode scanning.</string>
 </dict>
 
-<key>LSApplicationQueriesSchemes</key>
-<array>
-    <string>comgooglemaps</string>
-    <string>baidumap</string>
-    <string>iosamap</string>
-    <string>waze</string>
-    <string>yandexmaps</string>
-    <string>yandexnavi</string>
-</array>
 
-<array>
-    <string>UIInterfaceOrientationPortrait</string>
-</array>
-
-<key>NSCameraUsageDescription</key>
-<string>Camera permission is required for barcode scanning.</string>
 
 </plist>
